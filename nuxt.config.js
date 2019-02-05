@@ -40,6 +40,9 @@ module.exports = {
   css: [
     // Загрузить модуль normalize
     '~/node_modules/normalize.css/normalize.css'
-  ]
+  ],
+  router: {
+    base: '/build-si/'
+  }
 }
 
